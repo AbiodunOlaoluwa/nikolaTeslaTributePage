@@ -70,6 +70,7 @@ blockquote {
     max-width: 550px;
     margin: auto;
     text-align: left;
+    padding: 1em;
 }
 h3:last-of-type {
     padding-bottom: 2em;
