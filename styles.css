@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6em;
+    color: #333;
+    margin: auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#main {
+    background-color: #eee;
+    border-radius: 5px;
+    width: 99%;
+    margin: auto;
+    align-self: center;
+}
+a {
+    text-decoration: underline;
+    color: #0072a0;
+}
+h1, h3, .center-p {
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+#img-div {
+    margin: auto;
+    min-height: fit-content;
+    min-width: fit-content;
+    max-width: 2000px;
+    background-color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    width: 98%;
+}
+#image {
+    min-width: 150px;
+    min-height: 201px;
+    max-height: 1260px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    height: 60vh;
+    object-fit: cover;
+    display: block;
+}
+#tribute-info {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+ul {
+    max-width: 550px;
+    margin: auto;
+    text-align: left;
+    line-height: 2.5;
+}
+blockquote {
+    max-width: 550px;
+    margin: auto;
+    text-align: left;
+}
+h3:last-of-type {
+    padding-bottom: 2em;
+}
